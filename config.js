@@ -21,7 +21,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'ShiraoriBOT Multi device'
+global.packname = 'ShiraoriOT Multi device'
 global.author = 'Ilman'
 
 global.wm = '© ShiraoriBOT-Md Made by Ilman'
