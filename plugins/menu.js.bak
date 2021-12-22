@@ -25,28 +25,28 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭────ꕥ %me ꕥ────
-│ ⭔ Version: %version
-│ ⭔ Library: Baileys-MD
-│ ⭔ Runtime: %uptime
+│✾ Version: %version
+│✾ Library: Baileys-MD
+│✾ Runtime: %uptime
 ╰❑
 ╭─❑ 「 INFO USER 」 ❑──
-│ ⭔ Name: %name
-│ ⭔ Status: Free User
-│ ⭔ Limit: %limit
-│ ⭔ Money: %money
-│ ⭔ Exp: %totalexp
-│ ⭔ Level: %level
-│ ⭔ Role: %role
+│ ✾ Name: %name
+│ ✾ Status: Free User
+│ ✾ Limit: %limit
+│ ✾ Money: %money
+│ ✾ Exp: %totalexp
+│ ✾ Level: %level
+│ ✾ Role: %role
 ╰❑
 ╭─❑ 「 INFORMASI 」 ❑──
-│ _Bot ini masih tahap beta_
-│ _apabila ada bug/eror harap_
-│ _lapor ke owner_
+│ Bot ini masih tahap beta
+│ apabila ada bug/eror harap
+│ lapor ke owner
 ╰❑
 %readmore`.trimStart(),
-  header: '┌───*「 %category 」*──',
-  body: '│⭔%cmd %islimit %isPremium',
-  footer: '└────\n',
+  header: '╭─「 %category 」',
+  body: '│ • %cmd %islimit %isPremium',
+  footer: '╰────\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
