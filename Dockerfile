@@ -11,6 +11,7 @@ RUN apt-get update && \
 COPY package.json .
 
 RUN npm install
+RUB npm i yt-search
 
 COPY . .
 
